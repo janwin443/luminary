@@ -1,0 +1,9 @@
+fixture TestFixture:
+    manufacturer: Test
+    type: conventional
+    channel dimmer:
+        attribute: intensity
+        resolution: 8bit
+        cap 0..255: open
+    mode standard(1ch):
+        1: dimmer
